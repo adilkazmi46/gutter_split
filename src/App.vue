@@ -73,12 +73,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  height: 100vh;
+ 
   overflow: scroll;
 
 
   img {
     width: calc(100% + 10px);
+    width: -webkit calc(100% + 10px);
+    width: -moz calc(100% + 10px);
+    width: -webkit calc(100% + 10px);
+    width: -webkit calc(100% + 10px);
     height: 100%;
     /* object-fit:cover;  */
   }
@@ -89,13 +93,15 @@ body {
   .vsg_gutter {
     background-color: transparent;
 
-  } 
+  }  
   .active{
     background-color: gray !important;
+    
   }
 }
 
 .sb_split-grid {
   height: calc(100% - 30px);
+
 }
 </style>

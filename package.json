@@ -42,10 +42,8 @@
     }
   },
   "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ],
+    "defaults"
+  ], 
   "keywords": [],
   "description": "Basic example of the Vue Split Grid component, available on npm: https://www.npmjs.com/package/vue-split-grid"
 }
